@@ -1,0 +1,79 @@
+<div class="intro-2">
+  <div class="rgba-gradient">
+    <div class="container d-flex justify-content-center">
+      <div class="card mx-5 my-5 blur">
+        <div class="card-body text-center border border-1">
+          <h2 class="card-heading display-5 text-uppercase text-light">
+            Log In
+          </h2>
+          <form>
+            <div class="row mx-4 my-4 mb-5">
+              <div class="col-md-4">
+                <label for="inputUserLogin" class="mt-2 text-light"
+                  >Usuario</label
+                >
+                <input
+                  name="inputUserLogin"
+                  type="text"
+                  placeholder="Usuario"
+                  required=""
+                  autofocus=""
+                  class="
+                    form-control
+                    rounded
+                    border-1 border-dark
+                    shadow-sm
+                    px-4
+                  "
+                />
+              </div>
+
+              <div class="col-md-4">
+                <label for="inputPasswordLogin" class="mt-2 text-light"
+                  >Password</label
+                >
+                <input
+                  name="inputPasswordLogin"
+                  type="password"
+                  placeholder="Password"
+                  required=""
+                  class="
+                    form-control
+                    rounded
+                    border-1 border-dark
+                    shadow-sm
+                    px-4
+                    text-danger
+                  "
+                />
+              </div>
+
+              <div class="col-md-4">
+                <div class="form-group d-grid gap-2 mt-3">
+                  <label for="" class="mt-2 text-light"></label>
+                  <button
+                    type="submit"
+                    name="action"
+                    value="login"
+                    class="
+                      btn btn-outline-light btn-block
+                      text-uppercase
+                      mb-2
+                      rounded
+                      shadow-sm
+                    "
+                  >
+                    Entrar <i class="fas fa-sign-in-alt"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </form>
+          <a class="text-light" [routerLink]="['/register']"
+            >aun no tienes cuenta?</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
