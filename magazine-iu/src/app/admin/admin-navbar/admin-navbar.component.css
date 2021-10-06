@@ -1,0 +1,7 @@
+.bg {
+  background-color: rgba(105, 51, 73, 0.5);
+}
+.blur {
+  background: rgba(85, 85, 85, 0);
+  backdrop-filter: blur(20px);
+}
